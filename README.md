@@ -9,6 +9,8 @@ Chen Wang, Minpeng Liao, Zhongqiang Huang, Jinliang Lu, Junhong Wu, Yuchen Liu, 
 <a href='https://cwang621.github.io/blsp.github.io'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  <a href='https://arxiv.org'><img src='https://img.shields.io/badge/Paper-Arxiv-red'> </a>
 
 
+This paper has been submitted to arXiv and will be accessible after Wednesday, September 6th.
+
 ## Introduction
 
 * BLSP extends the language capabilities of LLMs to speech, enabling iteraction with LLMs through spoken languages. 
