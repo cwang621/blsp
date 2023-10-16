@@ -8,6 +8,7 @@ Chen Wang, Minpeng Liao, Zhongqiang Huang, Jinliang Lu, Junhong Wu, Yuchen Liu, 
 
 <a href='https://cwang621.github.io/blsp.github.io'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  <a href='https://arxiv.org/abs/2309.00916'><img src='https://img.shields.io/badge/Paper-Arxiv-red'> </a>
 
+**Note:** we fix a bug in [modeling_blsp.py](https://github.com/cwang621/blsp/blob/main/blsp/src/modeling_blsp.py), which causes slower convergence but has little impact on the final performance. We will release the new model and results as soon as possible. 
 
 ## Introduction
 
