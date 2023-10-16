@@ -135,7 +135,7 @@ class BlspModel(PreTrainedModel):
     ):
         ### 1. forward speech
         speech_embeds, speech_attention_mask = self.get_speech_features(speech_values, speech_attention_mask)
-        speech_labels = speech_attention_mask.new_ones(speech_embeds.size(0), speech_embeds.size(1)).fill_(-100)
+        speech_labels = torch.LongTensor(speech_embeds.size(0), speech_embeds.size(1)).fill_(-100).to(speech_embeds.device)
 
         ### 2. forward llama
         prefix_embeds = self.llama_model.get_input_embeddings()(input_ids)
